@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.imagen-logo{
+    width:"100%";
+    height:"100%";
+  
+}
+header {
+    background-color: #EAC926;
+}
+
+/* oferta, descuento y descripcion */
+main section article div{
+    background-color: #fff;
+    border-top: solid 0px #ebebeb;
+}
+article i{
+    display: block;
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+.main-article{
+    position: relative;
+}
+.oculto{
+    display: none;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    font-size: 12px;
+}
+.container-precio{
+    display: flex;
+   
+    padding: 10px;
+    
+   
+}
+
+  /* ///// Menu  //////*/
+
+main {
+    width: 90%;
+    margin: auto ;
+    
+    
+}
+section ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+article{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    
+}
+
+
+ /* titulo del header */
+h3 {
+    text-align: center;
+}
+ /* titulos de las secciones de articulos */  
+h2 {
+    font-size: 24px;
+    color: #666;
+}
+/* caracteristicas del menu hamburguesa */
+div button {
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #1259c3;
+    border-radius: 10px;
+    border: #1259c3;
+    padding: 12px;
+    font-size: 22px
+}
+/* menu hamburguesa - centrado */
+.container-bm {
+    text-align: center;
+
+}
+ul {
+    padding: 0px;
+}
+
+
+/* articulos */
+li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.image-product{
+    width: 100%;
+    height: 100%;
+}
+
+/* precios */
+#precios {
+    font-size: 18px;
+    
+}
+/* descuentos */
+#descuentos {
+    font-size: 16px;
+    color: #39b54a;
+    margin-left: 10px;
+   
+    
+    
+}
+.descripcion{
+    color: #666;
+    font-size: 16px;
+    padding:10px
+}
+
+@media(min-width: 361px){
+     article{    
+         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+         
+     }
+     .oculto{
+        display: block;
+    }
+    main section {  
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+}
+
+@media(min-width: 769px){
+    article{
+         
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .oculto{
+       display: block;
+   }
+}
+
+
+
+
+/* footer */
+footer h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top:10px
+}
+
+footer {
+    text-align: center;
+    line-height: 15px;
+    padding: 20px;
+    margin-top: 10%;
+}
+/*
+button {
+    font-size: 20px;
+}
+*/
+
+/*   ///  iconos del footer   /// */
+.container-credit {
+    font-size: 40px;
+    color: #1259c3;
+}
+
+.container-gift {
+    font-size: 40px;
+    color: #1259c3
+}
+
+.container-security {
+    font-size: 40px;
+    color: #1259c3;
+}
+/* titulos del footer */ 
+#footer-titulo {
+    color: #666;
+    font-weight: bold;
+}
+ /* parrafos del footer */ 
+#footer-p {
+
+    color: #666;
+}
+
+
